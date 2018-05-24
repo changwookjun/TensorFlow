@@ -9,6 +9,8 @@
   When training is done, accuracy on eval data is reported. Point tensorboard
   to the directory for the run to see how the training progresses:
   tensorboard --logdir=/tmp/binary_mnist
+
+  python binaryMnist.py --output_dir="/tmp/binary_mnist" --num_trees=1000  0.99
 """
 
 from __future__ import absolute_import
